@@ -6,6 +6,6 @@ kittens.push(name)
 }
 kittens=["Milo", "Otis", "Garfield"]
 function destructivelyPrependKitten(name){
-  kittens.shift(name)
+  kittens.unshift(name)
   return kittens
 }
